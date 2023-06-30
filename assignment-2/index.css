@@ -1,0 +1,177 @@
+
+.container{
+    width: 32%;
+    margin: 50px auto;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.top{
+    position: relative;
+}
+
+.top img{
+    width: 100%;
+    border-radius: 12px;
+}
+.top p{
+    position: absolute;
+}
+.promoted{
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: gray;
+    left: 10px;
+}
+.off{
+    bottom:0;
+    left: 0;
+    background-color: blue;
+    padding: 4px 10px;
+    color: white;
+    font-size: 20px;
+}
+.time{
+    bottom: 0;
+    right: 10px;
+    background-color: white;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.restaurant {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.place{
+    color: gray;
+    font-weight: 500;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.bottom img{
+    width: 100px;
+    height: 40px;
+}
+
+.bottom p{
+    color: gray;
+    font-size: 18px;
+}
+
+.container-2{
+    width: 50%;
+    margin: 50px auto;
+    background-image: url("./images/beach.jpeg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.labelData{
+    padding: 10px;
+    text-align: center;
+}
+
+.heading{
+    margin-top: 25%;
+    font-size: 28px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.description{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.container-3{
+    width: 50%;
+    margin: 50px auto;
+    background-image: url("./images/food-2.jpeg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.name{
+    font-size: 30px;
+    margin-top: 20px;
+    font:900;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.tagline{
+    font-size: 20px;
+}
+.searchbar{
+    width: 70%;
+    margin: 0 auto 20px auto;
+    display: flex;
+    background-color: white;
+    border-radius: 12px;
+}
+.searchbar p{
+    width: 25%;
+    color: black;
+    border-right: 1px solid gray;
+}
+.searchbar input{
+    width: 60%;
+    border: none;
+}
+
+.container-4{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 14px;
+}
+.backgroundprofile{
+    height: 150px;
+}
+.backgroundprofile img{
+    width: 100%;
+    height: 150px;
+    border-radius: 14px 14px 0 0;
+
+}
+.profile{
+    width: 20%;
+    margin: auto;
+}
+.profile img{
+    border-radius: 50%;
+    width: 100%;
+    margin-top: -75px;
+    border: 5px solid white;
+}
+
+.details h3{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.details p{
+    color: gray;
+    font-size: 20px;
+}
